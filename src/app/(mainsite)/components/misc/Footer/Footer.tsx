@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.content}>
 
-        <img src="/img/logo.png" width={512} height={512} className={styles.logo} alt="Main Logo"/>
+        <img src="/img/logo.jpg" width={512} height={512} className={styles.logo} alt="Main Logo"/>
 
         <div className={styles.links}>
           <aside>
@@ -35,9 +35,9 @@ export default function Footer() {
               <h3 className={styles.listTitle}>Categories</h3>
               <ul className={styles.list}>
 
-                <span className={styles.listItem}>Category</span>
-                <span className={styles.listItem}>Category</span>
-                <span className={styles.listItem}>Category</span>
+                <span className={styles.listItem}>Towing</span>
+                <span className={styles.listItem}>Roadside Service</span>
+                <span className={styles.listItem}>Road Service</span>
               
               </ul>
             </aside>
