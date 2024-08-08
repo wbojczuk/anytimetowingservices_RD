@@ -305,6 +305,9 @@
        width: 5%;
        height: 100%;
    }
+   .topBarLinks a:nth-child(2){
+    display: none;
+}
     .topBarText{
         display: none;
     }
@@ -476,7 +479,7 @@
  
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-    .topBarLinks a:nth-child(3){
+    .topBarLinks a:nth-child(2){
         display: none;
     }
 
