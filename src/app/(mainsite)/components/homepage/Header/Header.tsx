@@ -14,7 +14,7 @@ return (
         <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call Now</Link>
     </div>
 
-    <img src='/img/header-bg.png' alt='Image of ' className='bg-img' />
+    <img src='/img/header-bg.webp' alt='Image of ' className='bg-img' />
     <div style={{backgroundColor: "rgba(0,0,0,0.71)"}} className='shader'></div>
  </header>
 )};

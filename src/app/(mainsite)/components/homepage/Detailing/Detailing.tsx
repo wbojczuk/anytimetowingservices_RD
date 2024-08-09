@@ -10,7 +10,7 @@ return (
         <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call Now</Link>
     </div>
     <div className={styles.imgWrapper}>
-        <img src="/img/needs-met.png" alt="image of a black car" className="bg-img" />
+        <img src="/img/needs-met.webp" alt="image of a dodge challenger" className="bg-img" />
         <div className={`shader ${styles.shader}`}></div>
     </div>
  </div>
