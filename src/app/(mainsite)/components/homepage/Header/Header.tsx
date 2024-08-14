@@ -12,6 +12,7 @@ return (
 
     <div className={`center main-body ${styles.linkWrapper}`}>
         <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call Now</Link>
+        <a href="https://square.link/u/n12V9Jg8" target='_blank' className="main-link">Pay Now</a>
     </div>
 
     <img src='/img/header-bg.webp' alt='Image of ' className='bg-img' />

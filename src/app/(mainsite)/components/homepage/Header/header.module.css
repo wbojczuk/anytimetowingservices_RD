@@ -12,6 +12,11 @@
 
 .linkWrapper{
     margin-top: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 4vw
 }
 
 .header p{
