@@ -327,9 +327,6 @@
         width: 2.5vw;
         height: 2.5vw;
     }
-    .topBarLinks:nth-child(1){
-        display: none;
-    }
     .topBarLinks a{
         font-size: 1.5rem;
         padding: 0 2vw;
