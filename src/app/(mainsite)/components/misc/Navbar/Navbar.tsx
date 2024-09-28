@@ -22,7 +22,7 @@ export default function Navbar() {
   const homeRef: any = useRef()
   const aboutRef: any = useRef()
   const contactRef: any = useRef()
-  const reviewsRef: any = useRef()
+  const impoundingRef: any = useRef()
   const galleryRef: any = useRef()
 
   const logoRef: any = useRef()
@@ -47,6 +47,10 @@ export default function Navbar() {
     {
       triggers: ["/", "/home"],
       ref: homeRef
+    },
+    {
+      triggers: ["/impounding"],
+      ref: impoundingRef
     }
     
   ]
@@ -181,6 +185,13 @@ export default function Navbar() {
           url="/"
           ref={homeRef}
           />
+
+        <NavOption
+          title="Impounding"
+          url="/impounding"
+          ref={impoundingRef}
+          />
+
 
           <NavOption
           title="About"

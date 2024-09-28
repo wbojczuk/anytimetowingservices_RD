@@ -7,6 +7,7 @@ import Junk from "@/app/(mainsite)/components/homepage/Junk/Junk";
 import Proven from "@/app/(mainsite)/components/homepage/Proven/Proven";
 import ServiceArea from "@/app/(mainsite)/components/homepage/ServiceArea/ServiceArea";
 import StatsRibbon from "@/app/(mainsite)/components/homepage/StatsRibbon/StatsRibbon";
+import Storage from "@/app/(mainsite)/components/homepage/Storage/Storage";
 
 
 export default function Home() {
@@ -14,13 +15,14 @@ export default function Home() {
     <>
       <Header />
       <Proven />
+      <Storage />
       <Detailing />
       <StatsRibbon />
       <Find />
       <ServiceArea />
       <Junk />
       <DontStress />
-      <DJ />
+      {/* <DJ /> */}
     </>
   )
 }
