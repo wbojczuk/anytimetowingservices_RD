@@ -47,10 +47,6 @@ export default function Navbar() {
     {
       triggers: ["/", "/home"],
       ref: homeRef
-    },
-    {
-      triggers: ["/impounding"],
-      ref: impoundingRef
     }
     
   ]
@@ -184,12 +180,6 @@ export default function Navbar() {
           title="Home"
           url="/"
           ref={homeRef}
-          />
-
-        <NavOption
-          title="Impounding"
-          url="/impounding"
-          ref={impoundingRef}
           />
 
 
