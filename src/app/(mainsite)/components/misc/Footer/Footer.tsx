@@ -84,10 +84,6 @@ export default function Footer() {
                   <a href="https://maps.app.goo.gl/98bFnqp4sp5foavv6" target="_blank">{process.env.NEXT_PUBLIC_BUSINESS_CITY_STATE}</a>
                 </aside>
 
-                <aside className={`${styles.contactItem} ${styles.listItem}`}>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"></path></svg>
-                  <a href="https://maps.app.goo.gl/GX38pWxhRJ3TFWrS7" target="_blank">IMPOUND: 7279 North ridge road Madison Ohio 44057</a>
-                </aside>
 
               </ul>
             </aside>
