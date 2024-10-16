@@ -15,7 +15,7 @@ return (
         {/* <a href="https://square.link/u/n12V9Jg8" target='_blank' className="main-link">Pay Now</a> */}
     </div>
 
-    <img src='/img/header-bg.webp' alt='Image of ' className='bg-img' />
+    <img src='/img/header-bg.png' alt='Image of ' className='bg-img' />
     <div style={{backgroundColor: "rgba(0,0,0,0.71)"}} className='shader'></div>
  </header>
 )};
