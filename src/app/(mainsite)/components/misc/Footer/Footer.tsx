@@ -71,12 +71,17 @@ export default function Footer() {
                   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m20 8l-8 5l-8-5V6l8 5l8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"></path></svg>
                   <a href={"mailto:" + process.env.NEXT_PUBLIC_EMAIL_ADDRESS} target="_blank">{process.env.NEXT_PUBLIC_EMAIL_ADDRESS}</a>
                 </aside>
-                
+
+                <aside className={`${styles.contactItem} ${styles.listItem}`}>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"></path></svg>
+                  <a href="https://maps.app.goo.gl/afNmvnXrNN3hURT7A" target="_blank">MAILING ADDRESS:{process.env.NEXT_PUBLIC_MAILING_ADDRESS}</a>
+                </aside>
+
                 
 
                 <aside className={`${styles.contactItem} ${styles.listItem}`}>
                   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"></path></svg>
-                  <a href="https://maps.app.goo.gl/98bFnqp4sp5foavv6" target="_blank">{process.env.NEXT_PUBLIC_BUSINESS_CITY_STATE}</a>
+                  <a href="https://maps.app.goo.gl/98bFnqp4sp5foavv6" target="_blank">ADDRESS: {process.env.NEXT_PUBLIC_BUSINESS_CITY_STATE}</a>
                 </aside>
 
 
