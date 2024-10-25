@@ -62,10 +62,10 @@ export default function Footer() {
                   <a>PUCO: 655994</a>
                 </aside>
 
-                <aside className={`${styles.contactItem} ${styles.listItem}`}>
+                {/* <aside className={`${styles.contactItem} ${styles.listItem}`}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M2 22V4q0-.825.588-1.412T4 2h16q.825 0 1.413.588T22 4v12q0 .825-.587 1.413T20 18H6zm6-11q.425 0 .713-.288T9 10t-.288-.712T8 9t-.712.288T7 10t.288.713T8 11m4 0q.425 0 .713-.288T13 10t-.288-.712T12 9t-.712.288T11 10t.288.713T12 11m4 0q.425 0 .713-.288T17 10t-.288-.712T16 9t-.712.288T15 10t.288.713T16 11"></path></svg>
                   <a href={"sms:" + process.env.NEXT_PUBLIC_TEXT_NUM} target="_blank">TEXTING: {process.env.NEXT_PUBLIC_TEXT_NUM_FORMATTED}</a>
-                </aside>
+                </aside> */}
                 
                 <aside className={`${styles.contactItem} ${styles.listItem}`}>
                   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m20 8l-8 5l-8-5V6l8 5l8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"></path></svg>
