@@ -6,6 +6,9 @@ import styles from './header.module.css';
 export default function Header(){
 return (
  <header className={styles.header}>
+
+    <h2><span className="underline">Mobile Mechanic Services Available!</span></h2>
+
     <h1>Your Roadside<br /> Services Go-To</h1>
 
     <p>Serving all of your roadside needs in Geneva Ohio and surrounding areas, assistance is only <span className="underline"><strong>one call away!</strong></span></p>

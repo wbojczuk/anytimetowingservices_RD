@@ -10,6 +10,12 @@
     color: var(--primary-text-color);
 }
 
+.header h2{
+    text-align: center;
+    padding-bottom: 4rem;
+    font-size: 3rem;
+}
+
 .linkWrapper{
     margin-top: 4vw;
     display: flex;
@@ -51,6 +57,10 @@
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
+
+    .header h2{
+        font-size: 2rem;
+    }
 
     .header p{
         padding: 0 10%;
