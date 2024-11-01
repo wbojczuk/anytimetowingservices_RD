@@ -16,6 +16,12 @@
     font-size: 3rem;
 }
 
+.header h4{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
 .linkWrapper{
     margin-top: 4vw;
     display: flex;

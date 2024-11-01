@@ -15,10 +15,11 @@ return (
 
     <div className={`center main-body ${styles.linkWrapper}`}>
         <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call Now</Link>
-        <Link className='main-link' href={`sms:${process.env.NEXT_PUBLIC_TEXT_NUM}`}>Text Now</Link>
     </div>
 
-    <img src='/img/header-bg.png' alt='Image of ' className='bg-img' />
+    <h4>Hours: <em>Mon-Sun 6am-11pm</em></h4>
+
+    <img src='/img/header-bg.png' alt='Image of vehicle on towtruck' className='bg-img' />
     <div style={{backgroundColor: "rgba(0,0,0,0.71)"}} className='shader'></div>
  </header>
 )};
