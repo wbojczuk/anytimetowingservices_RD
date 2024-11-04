@@ -9,7 +9,7 @@ return (
 
     <h2>Need A Mechanic?</h2>
 
-    <h3>Anytime Roadside Services offers convenient mobile mechanic services, bringing essential car maintenance directly to your home. From brake repairs to oil changes and battery replacements, we handle the work where you are, making car care easy and stress-free. Our reliable service ensures your vehicle gets the attention it needs without the hassle of a trip to the shop.</h3>
+    <h3>Anytime Roadside Services offers convenient mechanic services. From brake repairs to oil changes and battery replacements, we handle the work where you are, making car care easy and stress-free. Our reliable service ensures your vehicle gets the attention it needs.</h3>
 
     <div className={`center ${styles.linkWrapper}`}>
     <Link className='main-link' href={`/contact`}>Contact Us</Link>

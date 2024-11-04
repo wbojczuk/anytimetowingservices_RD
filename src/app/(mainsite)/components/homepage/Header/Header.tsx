@@ -7,7 +7,7 @@ export default function Header(){
 return (
  <header className={styles.header}>
 
-    <h2><span className="underline">Mobile Mechanic Services Available!</span></h2>
+    <h2><span className="underline"> Mechanic Services Available!</span></h2>
 
     <h1>Your Roadside<br /> Services Go-To</h1>
 
@@ -15,6 +15,7 @@ return (
 
     <div className={`center main-body ${styles.linkWrapper}`}>
         <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call Now</Link>
+        <Link className='main-link' href={`sms:${process.env.NEXT_PUBLIC_TEXT_NUM}`}>Text Now</Link>
     </div>
 
     <h4>Hours: <em>Mon-Sun 6am-11pm</em></h4>
