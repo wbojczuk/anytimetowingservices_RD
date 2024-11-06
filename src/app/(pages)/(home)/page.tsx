@@ -15,8 +15,8 @@ export default function Home() {
     <>
       <Header />
       <Proven />
-      <Mechanic />
-      <Storage />
+      {/* <Mechanic />
+      <Storage /> */}
       <Detailing />
       <StatsRibbon />
       <Find />
