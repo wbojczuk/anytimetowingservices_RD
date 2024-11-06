@@ -21,7 +21,7 @@ export default function Home() {
       <StatsRibbon />
       <Find />
       <ServiceArea />
-      <Junk />
+      {/* <Junk /> */}
       <DontStress />
     </>
   )
