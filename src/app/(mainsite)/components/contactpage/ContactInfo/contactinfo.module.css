@@ -5,14 +5,14 @@
 
 .infoWrapper{
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     gap: 4vw;
 }
 
 .info{
     width: 20%;
-    aspect-ratio: 1/1;
+    
     background: var(--gradient-left);
     border-radius: 10px;
     color: var(--primary-text-color);
@@ -68,6 +68,11 @@
     font-size: 1.4rem;
     word-break: break-all;
     text-align: center;
+}
+
+.textInfo:has(.socialIcon){
+    width: 90%;
+    padding: 4vw 5% 0 5%;
 }
 
 .socialIcon{
