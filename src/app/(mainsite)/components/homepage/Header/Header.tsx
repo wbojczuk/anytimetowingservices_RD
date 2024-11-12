@@ -16,7 +16,8 @@ return (
         <Link className='main-link' href={`sms:${process.env.NEXT_PUBLIC_TEXT_NUM}`}>Text Now</Link>
     </div>
 
-    <h4>Hours: <em>Mon-Sun 5am-12am</em></h4>
+    <h4>Serving you 24/7!</h4>
+    {/* Hours: <em>Mon-Sun 5am-12am</em> */}
 
     <img src='/img/header-bg.png' alt='Image of vehicle on towtruck' className='bg-img' />
     <div style={{backgroundColor: "rgba(0,0,0,0.71)"}} className='shader'></div>
