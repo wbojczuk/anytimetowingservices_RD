@@ -9,7 +9,7 @@ return (
 
     <h1>Your Roadside<br /> Services Go-To</h1>
 
-    <h2>We take Cashapp, Venmo, and Paypal<span className="highlight">!</span></h2>
+    <h2>We take Cashapp, Venmo, Paypal, and all major Credit Cards<span className="highlight">!</span></h2>
 
     <p>Serving all of your roadside needs in Geneva Ohio and surrounding areas, assistance is only <span className="underline"><strong>one call away!</strong></span></p>
 
