@@ -47,6 +47,10 @@ export default function Navbar() {
     {
       triggers: ["/", "/home"],
       ref: homeRef
+    },
+    {
+      triggers: ["/gallery"],
+      ref: galleryRef
     }
     
   ]
@@ -187,6 +191,11 @@ export default function Navbar() {
           title="About"
           url="/about"
           ref={aboutRef}
+          />
+          <NavOption
+          title="Gallery"
+          url="/gallery"
+          ref={galleryRef}
           />
           <NavOption
           title="Contact"
