@@ -6,7 +6,7 @@ return (
  <div className={styles.serviceArea}>
     <div className={styles.textWrapper}>
         <h2>
-            <span className="underline">Serving a 60-mile</span> <br />
+            <span className="underline">Serving a 20-mile</span> <br />
             <span className="underline">Radius From</span> <br />
             <span className="underline">Geneva, OH</span>
         </h2>
