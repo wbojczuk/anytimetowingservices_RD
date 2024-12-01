@@ -16,6 +16,8 @@ const galleryImgs: string[] = [
     "/img/gallery/15.webp",
     "/img/gallery/16.webp",
     "/img/gallery/17.webp",
+    "/img/gallery/18.webp",
+    "/img/gallery/19.webp",
 
 ]
 
