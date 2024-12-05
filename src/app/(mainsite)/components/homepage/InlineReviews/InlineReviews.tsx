@@ -45,7 +45,7 @@ export default function InlineReviews() {
            </Swiper>
         </div>
         <div className={`center ${styles.cta}`}>
-           <a className="main-link" target="_blank" href="https://www.google.com/maps/place/Anytime+Roadside+Services/@41.809598,-80.9349528,2472m/data=!3m1!1e3!4m8!3m7!1s0x6f871a751118d699:0xbc60c3cc9d3de26e!8m2!3d41.809598!4d-80.9349528!9m1!1b1!16s%2Fg%2F11vjw_hctt">Leave Review</a>
+           <a className="main-link" target="_blank" href="https://g.page/r/CW7iPZ3Mw2C8EBM/review">Leave Review</a>
            <a className="main-link" target="_blank" href="https://www.google.com/maps/place/Anytime+Roadside+Services/@41.809598,-80.9349528,2472m/data=!3m1!1e3!4m8!3m7!1s0x6f871a751118d699:0xbc60c3cc9d3de26e!8m2!3d41.809598!4d-80.9349528!9m1!1b1!16s%2Fg%2F11vjw_hctt">More Reviews</a>
         </div>
         <img src="/img/contact.webp" aria-hidden className="bg-img" />
