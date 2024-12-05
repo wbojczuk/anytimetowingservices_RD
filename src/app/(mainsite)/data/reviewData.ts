@@ -1,53 +1,43 @@
 const reviewData: reviewType[] = [
     {
-        name: "Johnny Appleseed",
+        name: "Lauren Hull",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab quas unde laudantium veniam itaque vel nam aspernatur ipsa? Cum iusto voluptates itaque assumenda illum molestiae pariatur quos sit hic.
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor.`
+        desc: `He came through  when no one else would to tow my truck.I would definitely use him again.Thank you for your services.
+`
     },
     {
-        name: "Johnny Appleseed",
+        name: "rodney hunt",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab quas unde laudantium veniam itaque vel nam aspernatur ipsa? Cum iusto voluptates itaque assumenda illum molestiae pariatur quos sit hic.
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor.`
+        desc: `I was locked out of my vehicle was in touch with Anytime Roadside Services and he was able to get door unlocked in short time after called him, arrived and unlocked in minutes after arriving
+`
     },
     {
-        name: "Johnny Appleseed",
+        name: "Katie King",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab quas unde laudantium veniam itaque vel nam aspernatur ipsa? Cum iusto voluptates itaque assumenda illum molestiae pariatur quos sit hic.
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor.`
+        desc: `Fast reliable service! Called this morning and he came right away to get my vehicle. Was friendly and personable. I would recommend this company to anyone needing towing services!`
     },
     {
-        name: "Johnny Appleseed",
+        name: "Kam Linnea Helmers",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor.`
+        desc: `I was stranded on the side of the road in Ohio and I couldn't get any other tow truck company to come and help me! I called and spoke with Shane and was so relieved when he showed up 20 minutes later excellent customer service excellent prices I highly recommend my daughter and her family all live in this area and I told them about what he did for me and they are only going to use this company from now on. Amazing people very happy thanks Shane`
     },
     {
-        name: "Johnny Appleseed",
+        name: "Jesse Cothrum",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab quas unde laudantium veniam itaque vel nam aspernatur ipsa?
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor`
+        desc: `Shane is an excellent tow truck operator did very good work driving through Cleveland during rush hour I think I'm very much for his service
+`
     },
     {
-        name: "Johnny Appleseed",
+        name: "Michael Papuga",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab quas unde laudantium veniam itaque vel nam aspernatur ipsa? Cum iusto voluptates itaque assumenda illum molestiae pariatur quos sit hic.
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor.`
+        desc: `Great fast service fast service great rates great customer service. This guy is an owner operator. He knows what he’s doing. I’ll always use him. He’s a great guy.
+`
     },
 ]
 
