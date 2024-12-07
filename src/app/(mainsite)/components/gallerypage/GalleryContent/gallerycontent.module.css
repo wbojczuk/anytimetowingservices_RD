@@ -4,7 +4,7 @@
     /* background-color: #fff; */
 }
 
-.img{
+.img, .galleryContent iframe{
     width: 40%;
     aspect-ratio: 1/0.7;
     object-fit: cover;
@@ -24,7 +24,7 @@
     .galleryContent{
         padding: var(--section-padding-top) 5%;
     }
-        .img{
+        .img, .galleryContent iframe{
             margin: 3.5vw 5%;
         }
 
@@ -36,7 +36,7 @@
         padding: var(--section-padding-top) 10%;
     }
     
-    .img{
+    .img, .galleryContent iframe{
         width: 100%;
         margin: 6vw 0;
     }
