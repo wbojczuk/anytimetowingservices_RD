@@ -22,7 +22,11 @@ const galleryImgs: string[] = [
     "/img/gallery/21.webp",
     "/img/gallery/22.webp",
     "/img/gallery/23.webp",
-    "https://www.youtube.com/embed/V1FEP34qdqg?si=VTelFXBKXick11vJ&amp;controls=0"
+    "https://www.youtube.com/embed/V1FEP34qdqg?si=VTelFXBKXick11vJ&amp;controls=0",
+    "/img/gallery/24.webp",
+    "/img/gallery/25.webp",
+    "/img/gallery/26.webp",
+    "/img/gallery/27.webp",
 ]
 
 export default galleryImgs
