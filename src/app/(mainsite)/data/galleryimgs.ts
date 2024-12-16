@@ -27,6 +27,12 @@ const galleryImgs: string[] = [
     "/img/gallery/25.webp",
     "/img/gallery/26.webp",
     "/img/gallery/27.webp",
+    "/img/gallery/28.webp",
+    "/img/gallery/29.webp",
+    "/img/gallery/30.webp",
+    "/img/gallery/31.webp",
+    "/img/gallery/32.webp",
+    "/img/gallery/33.webp",
 ]
 
 export default galleryImgs
