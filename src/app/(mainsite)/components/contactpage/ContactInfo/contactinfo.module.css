@@ -138,9 +138,12 @@
     .infoWrapper{
         gap: 3vw;
         flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
     .info{
         width: 50%;
+        padding: 5vw 0;
     }
     .icon{
         width: 12vw;
