@@ -18,8 +18,8 @@ export default function Home() {
       <Header />
       <Proven />
       <Pressure />
-      {/* <Mechanic />
-      <Storage /> */}
+      {/* <Mechanic />*/}
+      <Storage />
       <InlineReviews />
       <Detailing />
       <StatsRibbon />

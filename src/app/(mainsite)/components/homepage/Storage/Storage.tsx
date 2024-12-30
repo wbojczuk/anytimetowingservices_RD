@@ -9,7 +9,7 @@ return (
 
     <h2>We Offer Storage!</h2>
 
-    <h3>We offer Indoor storage for smaller items such as Motorcycles and household items, and outdoor storage for your larger vehicles. Keep your belongings safe with our 24/7 surveillance cameras!</h3>
+    <h3>Looking for secure storage in Geneva, Ohio? I offer 1,700 square feet of indoor storage space, perfect for ATVs, motorcycles, and a few vehicles. Your items will be kept safe and protected from the elements in a clean, secure environment. Whether you need short-term or long-term storage, I’ve got you covered with a space designed for your peace of mind.</h3>
 
     <div className={`center ${styles.linkWrapper}`}>
     <Link className='main-link' href={`/contact`}>Contact Now</Link>
