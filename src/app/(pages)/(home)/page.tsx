@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Header />
       <Proven />
-      <Pressure />
+      {/* <Pressure /> */}
       {/* <Mechanic />*/}
       <Storage />
       <InlineReviews />
