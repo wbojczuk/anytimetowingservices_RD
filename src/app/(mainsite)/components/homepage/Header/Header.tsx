@@ -6,7 +6,7 @@ import styles from './header.module.css';
 export default function Header(){
 return (
  <header className={styles.header}>
-    <h3><span className="underline underline-top">Mobilized Mechanic Mervices</span></h3>
+    <h3><span className="underline underline-top">Mobilized Mechanic Services</span></h3>
 
     <h1>Your Roadside<br /> Services Go-To</h1>
 
