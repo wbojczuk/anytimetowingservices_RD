@@ -49,6 +49,7 @@
     font-size: 1.2rem;
     line-height: 150%;
     color: var(--primary-text-color);
+    white-space: pre-wrap;
 }
 
 .review span{

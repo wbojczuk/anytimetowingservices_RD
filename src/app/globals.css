@@ -61,6 +61,17 @@ body{
   background-color: var(--primary-color);
 }
 
+.underline-top::before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: 102%;
+  left:0;
+  height: 8px;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
 .bg-img{
   position: absolute;
   top:0;
