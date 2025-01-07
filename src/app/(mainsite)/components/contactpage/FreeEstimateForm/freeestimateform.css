@@ -84,6 +84,21 @@
     filter: brightness(75%);
 }
 
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.checkbox input[type='checkbox']{
+    display: inline-block !important;
+    width: auto !important;
+}
+
+.checkbox span{
+    display: inline-block;
+}
+
 #estimateForm textarea{
     resize: none;
     width: 80%;

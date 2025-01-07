@@ -14,9 +14,14 @@ export default function FreeEstimateForm() {
   return (
     <>
     <MessageStatus status={status} setStatus={setStatus}/>
-    <form ref={formRef} id="estimateForm" onSubmit={(evt)=>{sendEmail(evt, setStatus, {
+    <form ref={formRef} id="estimateForm" onSubmit={(evt)=>{
+
+        const data = Object.fromEntries(new FormData(formRef.current))
+        data.Consented_To_SMS = (data.Consented_To_SMS == "on") ? "Yes" : "No";
+        
+        sendEmail(evt, setStatus, {
         receiverEmail: process.env.NEXT_PUBLIC_DELIVERY_EMAIL!,
-        data: Object.fromEntries(new FormData(formRef.current))
+        data: data
     }, formRef.current)}}>
 
         <h3 id="estimateFormTitle">Contact Us!</h3>
@@ -38,6 +43,10 @@ export default function FreeEstimateForm() {
 
             <div className="input-wrapper">
                 <textarea required maxLength={5000} name="Details" id="messageInput" placeholder={"Additional details..."}></textarea>
+            </div>
+            <div className="input-wrapper checkbox">
+                <input id="formCheck" type="checkbox" name="Consented_To_SMS" />
+                <label htmlFor="formCheck">By checking this box I consent to receive SMS from {process.env.NEXT_PUBLIC_BUSINESS_NAME}. Reply STOP to opt-out; Reply HELP; Message and data rates apply; Messaging frequency may vary.</label>
             </div>
             
             <div className="center">

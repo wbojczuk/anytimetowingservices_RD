@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Link from "next/link"
 
 export const metadata: Metadata = {
 	  title: `Privacy Policy | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
@@ -27,12 +28,23 @@ export default function PrivacyPolicyPage(){
 	 return(
 	 	 <main style={{color: "white"}}>
 		 	<div style={{marginTop: "15px"}} className="center"><h1>Privacy Policy</h1></div>
-			<p style={{padding: "2vw 20%"}}>Welcome to our Privacy Policy
+			<p style={{padding: "2vw 20%"}}>
+			Welcome to our Privacy Policy
 Your privacy is critically important to {process.env.NEXT_PUBLIC_BUSINESS_NAME} policy to respect your privacy regarding any information we may collect while operating our website. This Privacy Policy applies to {process.env.NEXT_PUBLIC_BUSINESS_NAME} (hereinafter, “us”, “we”, or “{process.env.NEXT_PUBLIC_BUSINESS_NAME} “). We respect your privacy and are committed to protecting personally identifiable information you may provide us through the Website. We have adopted this privacy policy (“Privacy Policy”) to explain what information may be collected on our Website, how we use this information, and under what circumstances we may disclose the information to third parties. This Privacy Policy applies only to information we collect through the Website and does not apply to our collection of information from other sources.
 <br /><br />
+
 This Privacy Policy, together with the Terms and conditions posted on our Website, set forth the general rules and policies governing your use of our Website. Depending on your activities when visiting our Website, you may be required to agree to additional terms and conditions.
+<br /><br /><br />
+<strong>Consent for SMS Communication</strong><br /><br />
+If you have consented to receive text messages from {process.env.NEXT_PUBLIC_BUSINESS_NAME}, you may receive text messages related to troubleshooting your vehicle, your location, and leaving a review.
 <br /><br />
-Website Visitors
+			*Information obtained as part of the SMS consent process will not be shared with third parties. Message and data rates may apply.
+<br /><br />
+You can opt out at any time by texting "STOP."
+<br /><br />
+For assistance, text "HELP" or <Link href="/contact">Contact Us</Link>
+			<br /><br /><br />
+<strong>Website Visitors</strong> <br /><br />
 Like most website operators, {process.env.NEXT_PUBLIC_BUSINESS_NAME} collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. {process.env.NEXT_PUBLIC_BUSINESS_NAME} purpose in collecting non-personally identifying information is to better understand how {process.env.NEXT_PUBLIC_BUSINESS_NAME} visitors use its website. From time to time, {process.env.NEXT_PUBLIC_BUSINESS_NAME} may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.
 <br /><br />
 {process.env.NEXT_PUBLIC_BUSINESS_NAME} also collects potentially personally-identifying information like Internet Protocol (IP) addresses for logged in users and for users leaving comments on the website {process.env.NEXT_PUBLIC_BUSINESS_NAME} only discloses logged in user and commenter IP addresses under the same circumstances that it uses and discloses personally-identifying information as described below.
