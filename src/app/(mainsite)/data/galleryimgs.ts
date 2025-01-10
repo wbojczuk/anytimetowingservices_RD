@@ -33,6 +33,7 @@ const galleryImgs: string[] = [
     "/img/gallery/31.webp",
     "/img/gallery/32.webp",
     "/img/gallery/33.webp",
+    "/img/gallery/34.webp",
 ]
 
 export default galleryImgs
