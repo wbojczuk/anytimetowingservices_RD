@@ -21,7 +21,7 @@ return (
     <a href={"tel:" + process.env.NEXT_PUBLIC_PHONE_NUM} target="_blank">
         <img src="/img/call.webp" aria-hidden />
     </a>
-    <Link href={"/contact"}>
+    <Link href={"sms:" + process.env.NEXT_PUBLIC_TEXT_NUM}>
         <img src="/img/chat.webp" aria-hidden />
     </Link>
 
