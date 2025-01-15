@@ -1,3 +1,4 @@
+import Ad from "@/app/(mainsite)/components/homepage/Ad/Ad";
 import Detailing from "@/app/(mainsite)/components/homepage/Detailing/Detailing";
 import DontStress from "@/app/(mainsite)/components/homepage/DontStress/DontStress";
 import Header from "@/app/(mainsite)/components/homepage/Header/Header";
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <Ad />
       <Proven />
       {/* <Pressure /> */}
       {/* <Mechanic />*/}
