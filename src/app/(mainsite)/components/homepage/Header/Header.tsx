@@ -17,8 +17,9 @@ return (
     <p>Serving all of your roadside needs in Geneva Ohio and surrounding areas, assistance is only <span className="underline"><strong>one call away!</strong></span></p>
 
     <div className={`center main-body ${styles.linkWrapper}`}>
-        <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call Now</Link>
-        <Link className='main-link' href={`sms:${process.env.NEXT_PUBLIC_TEXT_NUM}`}>Text Now</Link>
+    <Link className='main-link' target='_blank' href={`http://public.towbook.com/Kv3p`}>Get Help Now!</Link>
+        {/* <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call Now</Link>
+        <Link className='main-link' href={`sms:${process.env.NEXT_PUBLIC_TEXT_NUM}`}>Text Now</Link> */}
     </div>
 
     <h4>Serving you 24/7!</h4>
