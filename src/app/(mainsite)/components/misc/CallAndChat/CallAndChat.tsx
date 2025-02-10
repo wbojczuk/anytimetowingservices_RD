@@ -18,12 +18,13 @@ export default function CallAndChat(){
 
 return (
  <div ref={wrapperRef} className={styles.callAndChat}>
+    <Link href={"http://public.towbook.com/Kv3p"} target='_blank'>
+        <img src="/img/chat.webp" aria-hidden />
+    </Link>
     <a href={"tel:" + process.env.NEXT_PUBLIC_PHONE_NUM} target="_blank">
         <img src="/img/call.webp" aria-hidden />
     </a>
-    <Link href={"sms:" + process.env.NEXT_PUBLIC_TEXT_NUM}>
-        <img src="/img/chat.webp" aria-hidden />
-    </Link>
+    
 
  </div>
 )};

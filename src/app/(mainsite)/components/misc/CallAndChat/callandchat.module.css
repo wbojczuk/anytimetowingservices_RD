@@ -18,9 +18,10 @@
     pointer-events: all;
 }
 
-.callAndChat img{
+.callAndChat img, .callAndChat svg{
     width: 5vw;
-    aspect-ratio: 1/1;
+    height: 5vw;
+    color: white;
 }
 
 
@@ -37,7 +38,7 @@
     
     .callAndChat img{
         width: 8vw;
-        aspect-ratio: 1/1;
+        height: 8vw;
     }
 }
 
@@ -49,7 +50,7 @@
     
     .callAndChat img{
         width: 18vw;
-        aspect-ratio: 1/1;
+        height: 18vw;
     }
     .callAndChat{
         align-items: flex-end;
