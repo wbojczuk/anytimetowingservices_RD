@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Ad />
+      {/* <Ad /> */}
       <Proven />
       {/* <Pressure /> */}
       {/* <Mechanic />*/}

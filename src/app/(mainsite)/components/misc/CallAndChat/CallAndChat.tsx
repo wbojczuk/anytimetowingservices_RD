@@ -18,7 +18,7 @@ export default function CallAndChat(){
 
 return (
  <div ref={wrapperRef} className={styles.callAndChat}>
-    <Link href={"http://public.towbook.com/Kv3p"} target='_blank'>
+    <Link href={"/contact"}>
         <img src="/img/chat.webp" aria-hidden />
     </Link>
     <a href={"tel:" + process.env.NEXT_PUBLIC_PHONE_NUM} target="_blank">

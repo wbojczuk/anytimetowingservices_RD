@@ -56,7 +56,7 @@ export default function Footer() {
               <h3 className={styles.listTitle}>Categories</h3>
               <ul className={styles.list}>
 
-                <span className={styles.listItem}>Towing</span>
+                <span className={styles.listItem}>Road Assistance</span>
                 <span className={styles.listItem}>Roadside Service</span>
                 <span className={styles.listItem}>Road Service</span>
               
