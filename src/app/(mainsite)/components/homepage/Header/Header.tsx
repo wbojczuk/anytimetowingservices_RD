@@ -24,7 +24,7 @@ return (
     <h4>Serving you 24/7!</h4>
     {/* Hours: <em>Mon-Sun 5am-12am</em> */}
 
-    <img src='/img/header-bg.png' alt='Image of vehicle on towtruck' className='bg-img' />
-    <div style={{backgroundColor: "rgba(0,0,0,0.71)"}} className='shader'></div>
+    <img src='/img/header2-bg.webp' alt='Image of vehicle on towtruck' className='bg-img' />
+    <div style={{backgroundColor: "rgba(0,0,0,0.85)"}} className='shader'></div>
  </header>
 )};
