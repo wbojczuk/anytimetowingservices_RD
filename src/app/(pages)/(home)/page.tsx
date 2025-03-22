@@ -25,7 +25,7 @@ export default function Home() {
       <InlineReviews />
       <Detailing />
       <StatsRibbon />
-      <Find />
+      {/* <Find /> */}
       <ServiceArea />
       {/* <Junk /> */}
       <DontStress />
