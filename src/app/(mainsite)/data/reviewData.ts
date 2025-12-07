@@ -45,7 +45,7 @@ His professionalism, friendliness, and dedication were outstanding. He turned wh
         name: "Kam Linnea Helmers",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `I was stranded on the side of the road in Ohio and I couldn't get any other tow truck company to come and help me! I called and spoke with Shane and was so relieved when he showed up 20 minutes later excellent customer service excellent prices I highly recommend my daughter and her family all live in this area and I told them about what he did for me and they are only going to use this company from now on. Amazing people very happy thanks Shane`
+        desc: `I was stranded on the side of the road and I couldn't get any other tow truck company to come and help me! I called and spoke with Shane and was so relieved when he showed up 20 minutes later excellent customer service excellent prices I highly recommend my daughter and her family all live in this area and I told them about what he did for me and they are only going to use this company from now on. Amazing people very happy thanks Shane`
     },
     {
         name: "Jesse Cothrum",
