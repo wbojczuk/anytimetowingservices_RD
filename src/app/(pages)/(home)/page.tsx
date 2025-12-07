@@ -21,7 +21,7 @@ export default function Home() {
       <Proven />
       {/* <Pressure /> */}
       {/* <Mechanic />*/}
-      <Storage />
+      {/* <Storage /> */}
       <InlineReviews />
       <Detailing />
       <StatsRibbon />

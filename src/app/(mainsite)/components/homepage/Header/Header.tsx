@@ -13,7 +13,7 @@ return (
     <h2>We take Cashapp, Venmo, Paypal, Chime, and all major Credit Cards<span className="highlight">!</span></h2>
 
 
-    <p>Serving all of your roadside needs in Geneva Ohio and surrounding areas, assistance is only <span className="underline"><strong>one call away!</strong></span></p>
+    <p>Serving all of your roadside needs in Erie, and Niagara New York assistance is only <span className="underline"><strong>one call away!</strong></span></p>
 
     <div className={`center main-body ${styles.linkWrapper}`}>
     <Link className='main-link' target='_blank' href={`http://public.towbook.com/Kv3p`}>Get Help Now!</Link>
