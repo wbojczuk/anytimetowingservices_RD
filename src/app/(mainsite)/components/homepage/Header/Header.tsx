@@ -21,7 +21,7 @@ return (
         <Link className='main-link' href={`sms:${process.env.NEXT_PUBLIC_TEXT_NUM}`}>Text Now</Link> */}
     </div>
 
-    <h4>Serving you 24/7!</h4>
+    <h4>Serving you Mon-Sun 5:30am-11:30pm!</h4>
     {/* Hours: <em>Mon-Sun 5am-12am</em> */}
 
     <img src='/img/header4.jpg' alt='Image of vehicle on towtruck' className='bg-img' />
