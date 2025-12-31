@@ -2,11 +2,16 @@
 
 import Link from 'next/link';
 import styles from './header.module.css';
+import InfiniteRibbon from '../InfiniteRibbon2/InfiniteRibbon';
 
 export default function Header(){
 return (
  <header className={styles.header}>
     {/* <h3><span className="underline underline-top">Mobilized Mechanic Services</span></h3> */}
+
+    <div className="center">
+        <InfiniteRibbon content={<><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span></>} />
+    </div>
 
     <h1>Your Roadside<br /> Services Go-To</h1>
 
