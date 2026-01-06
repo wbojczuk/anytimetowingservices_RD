@@ -10,7 +10,7 @@ return (
     {/* <h3><span className="underline underline-top">Mobilized Mechanic Services</span></h3> */}
 
     <div className="center">
-        <InfiniteRibbon content={<><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span><span>we offer lockouts, fuel delivery, jump starts, tire changes, <span className="underline">towing is unavailable at this time.</span></span></>} />
+        <InfiniteRibbon content={<><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span><span>Towing available now 24/7!</span></>} />
     </div>
 
     <h1>Your Roadside<br /> Services Go-To</h1>
@@ -26,7 +26,7 @@ return (
         <Link className='main-link' href={`sms:${process.env.NEXT_PUBLIC_TEXT_NUM}`}>Text Now</Link> */}
     </div>
 
-    <h4>Serving you Mon-Sun 5:30am-11:30pm!</h4>
+    <h4>24 hours a daym 7 days a week!</h4>
     {/* Hours: <em>Mon-Sun 5am-12am</em> */}
 
     <img src='/img/header4.jpg' alt='Image of vehicle on towtruck' className='bg-img' />
