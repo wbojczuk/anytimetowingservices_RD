@@ -29,7 +29,7 @@ export default function Footer() {
         </div>
       <div className={styles.content}>
 
-        <img src="/img/logo5.png" width={512} height={512} className={styles.logo} alt="Main Logo"/>
+        <img src="/img/logo5.png" width={512} height={512} className={styles.logo} alt="Main Logos"/>
 
         <div className={styles.links}>
           <aside>
