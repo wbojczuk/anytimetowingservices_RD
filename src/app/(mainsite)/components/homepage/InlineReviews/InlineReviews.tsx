@@ -45,8 +45,8 @@ export default function InlineReviews() {
            </Swiper>
         </div>
         <div className={`center ${styles.cta}`}>
-           <a className="main-link" target="_blank" href="https://g.page/r/CYRhJiMGpatxEBM/review">Leave Review</a>
-           <a className="main-link" target="_blank" href="https://g.page/r/CYRhJiMGpatxEBM">More Reviews</a>
+           <a className="main-link" target="_blank" href="https://g.page/r/CTeWgxCifeDxEBM/review">Leave Review</a>
+           <a className="main-link" target="_blank" href="https://g.page/r/CTeWgxCifeDxEBM">More Reviews</a>
         </div>
         <img src="/img/contact.webp" aria-hidden className="bg-img" />
         <div className="shader"></div>
