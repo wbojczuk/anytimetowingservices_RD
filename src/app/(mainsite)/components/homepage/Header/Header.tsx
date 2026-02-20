@@ -26,7 +26,7 @@ return (
         <Link className='main-link' href={`sms:${process.env.NEXT_PUBLIC_TEXT_NUM}`}>Text Now</Link> */}
     </div>
 
-    <h4><em>24 hours a day, 7 days a week!</em></h4>
+    <h4><em>Hours: Mon-Fri 6pm-7am, Sat-Sun 24hrs</em></h4>
     {/* Hours: Mon-Sun 5am-12am */}
     {/* 24 hours a day, 7 days a week! */}
 
