@@ -30,7 +30,7 @@ return (
     {/* Hours: Mon-Sun 5am-12am */}
     {/* 24 hours a day, 7 days a week! */}
 
-    <img src='/img/header4.jpg' alt='Image of vehicle on towtruck' className='bg-img' />
+    <img src='/img/header5.jpg' alt='Image of vehicle on towtruck' className='bg-img' />
     <div style={{backgroundColor: "rgba(0,0,0,0.85)"}} className='shader'></div>
  </header>
 )};
