@@ -1,5 +1,6 @@
 import Ad from "@/app/(mainsite)/components/homepage/Ad/Ad";
 import Detailing from "@/app/(mainsite)/components/homepage/Detailing/Detailing";
+import DJ from "@/app/(mainsite)/components/homepage/DJ/DJ";
 import DontStress from "@/app/(mainsite)/components/homepage/DontStress/DontStress";
 import Header from "@/app/(mainsite)/components/homepage/Header/Header";
 import Find from "@/app/(mainsite)/components/homepage/Impounded/Find";
@@ -28,6 +29,7 @@ export default function Home() {
       {/* <Find /> */}
       <ServiceArea />
       {/* <Junk /> */}
+      <DJ />
       <DontStress />
     </>
   )
