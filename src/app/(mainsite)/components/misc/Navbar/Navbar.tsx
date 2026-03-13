@@ -24,6 +24,7 @@ export default function Navbar() {
   const contactRef: any = useRef()
   const impoundingRef: any = useRef()
   const galleryRef: any = useRef()
+  const pricesRef: any = useRef()
 
   const logoRef: any = useRef()
   const hamburgerRef: any = useRef()
@@ -51,6 +52,10 @@ export default function Navbar() {
     {
       triggers: ["/gallery"],
       ref: galleryRef
+    },
+    {
+      triggers: ["/prices"],
+      ref: pricesRef
     }
     
   ]
@@ -196,6 +201,11 @@ export default function Navbar() {
           title="Gallery"
           url="/gallery"
           ref={galleryRef}
+          />
+          <NavOption
+          title="Prices"
+          url="/prices"
+          ref={pricesRef}
           />
           <NavOption
           title="Contact"
