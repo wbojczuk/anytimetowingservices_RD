@@ -29,7 +29,7 @@ export default function Home() {
       {/* <Find /> */}
       <ServiceArea />
       {/* <Junk /> */}
-      <DJ />
+      {/* <DJ /> */}
       <DontStress />
     </>
   )
